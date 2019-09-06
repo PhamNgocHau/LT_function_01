@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button type="button" onclick="additionFunction()">Click Me</button>
+<script>
+    function additionFunction(num1, num2) {
+        num1 = parseInt(prompt('Nhap vao so 1: '));
+        num2 = parseInt(prompt('Nhap vao so 2: '));
+        if (num1 > num2) {
+            document.write('So number 1 lon hon so number 2');
+        } else {
+            document.write('sum = ' +(num1 + num2));
+        }
+    }
+</script>
+</body>
+</html>
